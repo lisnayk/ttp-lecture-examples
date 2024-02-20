@@ -1,0 +1,20 @@
+version: '3.7'
+services:
+  nginx:
+    image: nginx:latest
+    volumes:
+      - ./static:/usr/share/nginx/html
+    ports:
+      - "8080:80"
+  apache:
+    image: httpd:latest
+    volumes:
+      - ./static:/usr/local/apache2/htdocs
+    ports:
+      - "8081:80"
+  nodejs:
+    build: .
+    volumes:
+      - ./static:/app/static
+    ports:
+      - "8082:3000"
