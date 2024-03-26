@@ -1,0 +1,28 @@
+.articles {
+    max-width: 1024px;
+    margin: 0 auto;
+    box-shadow: #007bff;
+
+}
+.articles__items {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 1 250px;
+    justify-content: center;
+}
+.articles__item {
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 100px;
+    max-width: 240px;
+    transition: all 0.3s;
+}
+.articles__title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem 0;
+
+}

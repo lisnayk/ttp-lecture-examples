@@ -1,0 +1,21 @@
+:root{ /* CSS Variables ~html  */
+    --bg-color: #a62929;
+    --bg-header: rgba(46, 56, 56, 0.17);
+    --bg-main: rgba(41, 129, 217, 0.53);
+    --text-color: #333;
+    --link-color: #007bff;
+    --link-hover-color: #0056b3;
+    --link-hover-bg: #f8f9fa;
+    --border-radius: 0.25rem;
+    --border-color: #007bff;
+    --border-width: 2px
+}
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+// Tablets and small desktops
+$screen-lg-min: 992px;
+// Large tablets and desktops
+$screen-xl-min: 1200px;

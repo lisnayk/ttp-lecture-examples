@@ -1,0 +1,19 @@
+{
+    "name": "eslint",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "tslint": "eslint .",
+        "tslint:fix": "eslint . --fix",
+        "prettier": "prettier ./index.js",
+        "prettier:fix": "prettier --write ./index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint-plugin-prefer-arrow": "^1.2.3",
+        "prettier": "^3.2.5"
+    }
+}

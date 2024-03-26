@@ -1,0 +1,26 @@
+{
+  "name": "babel-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server",
+    "start": "node -v && node index.js",
+    "bstart": "node -v && babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buble": "babel index.js -o dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.24.0",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.24.0",
+    "http-server": "^14.1.1"
+  },
+  "browserslist": [
+    "last 2 Chrome versions",
+    "IE 11"
+  ]
+}

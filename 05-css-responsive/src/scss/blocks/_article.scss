@@ -1,0 +1,38 @@
+.article {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap: 1rem;
+    color: #021626;
+    border-radius: 5px;
+    padding: 0.5rem;
+
+}
+.article__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    order: 1;
+}
+.article__image {
+    order: 0;
+    width: 100%;
+    aspect-ratio: 4/3;
+}
+.article__text {
+    order: 2;
+    /*overflow: hidden;*/
+    /*white-space: nowrap; !* Don't forget this one *!*/
+    /*text-overflow: ellipsis;*/
+}
+.article__link {
+    order: 3;
+    background-color: rgba(2, 22, 38, 0.71); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}

@@ -1,0 +1,28 @@
+.header {
+    color: white;
+
+    width: 100%;
+    aspect-ratio: 16/5;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    background-image: url(https://picsum.photos/1600/500);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.header__title {
+    opacity: 0.7;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+}
+.header__slogan {
+    opacity: 0.7;
+    font-size: 1.5rem;
+    text-align: center;
+}

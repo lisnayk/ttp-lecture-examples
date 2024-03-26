@@ -1,0 +1,14 @@
+.main {
+    background-color: white;
+}
+.main__title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+.main__content {
+    color: grey;
+    text-align: justify;
+    margin-bottom: 3rem;
+}
