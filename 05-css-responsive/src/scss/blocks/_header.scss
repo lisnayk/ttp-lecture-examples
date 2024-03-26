@@ -8,14 +8,14 @@
   justify-content: center;
   flex-direction: column;
 
-  background-image: url(https://picsum.photos/400/300);
+  background-image: url(https://picsum.photos/576/432);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
 
   &__title {
     opacity: 0.7;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     margin-top: 2rem;
     padding-bottom: 1rem;
@@ -23,8 +23,39 @@
 
   &__slogan {
     opacity: 0.7;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
   }
 }
+@include md {
+  .header {
+    &__title {
+      font-size: 2.5rem;
+    }
+    aspect-ratio: 16/9;
+    background-image: url(https://picsum.photos/768/363);
+  }
+}
+@include lg {
+  .header {
+    &__title {
+      font-size: 3rem;
+    }
+    aspect-ratio: 16/7;
+    background-image: url(https://picsum.photos/992/434);
+  }
+}
+@include xl {
+  .header {
+    aspect-ratio: 16/5;
+    background-image: url(https://picsum.photos/1200/375);
+  }
+}
+
+@include print {
+  .header {
+    display: none;
+  }
+}
+
 

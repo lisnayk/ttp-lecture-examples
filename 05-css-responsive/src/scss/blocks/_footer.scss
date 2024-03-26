@@ -3,3 +3,8 @@
     background-color: #1060a1;
     padding: 3rem;
 }
+@include print {
+    .footer {
+        display: none;
+    }
+}

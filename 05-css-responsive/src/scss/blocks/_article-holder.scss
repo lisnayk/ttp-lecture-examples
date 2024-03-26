@@ -1,5 +1,10 @@
 .article-holder {
     background-color: #021626;
     color: white;
-    padding: 2rem 0;
+    padding: 2rem 2rem;
+}
+@include md {
+    .article-holder {
+        padding: 2rem 0rem;
+    }
 }
